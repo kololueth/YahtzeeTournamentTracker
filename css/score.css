@@ -1,0 +1,174 @@
+body   {
+
+	background-color: black;
+	
+	height: 100%;
+	
+	margin: 0px;
+	
+	padding: 0px;
+	
+	color:white;
+       
+       }
+       
+       
+       
+header { 
+
+
+	background-color: grey;
+	
+	height: 113px;
+
+	top: 0px;
+	
+	right: 0px;
+	
+	left: 0px;
+	
+	box-shadow: 0px 1px 1px grey;
+	
+	background: linear-gradient(to bottom, silver, grey);
+	
+	-moz-box-shadow:    inset  5px 0px 20px black;
+	-webkit-box-shadow: inset  5px 0px 20px black;
+        box-shadow:         inset  5px 0px 20px black;
+        
+       overflow:hidden;
+	
+       }
+ul {
+	float:left;
+	margin: 80px 0px 0px 0px; /* top(px) right(px) bottom(px) left(px)  */
+	padding: 0px 0px 0px 0px;
+	
+
+	}
+li {
+	
+	font-family: tahoma;
+	color:white;
+	list-style-type: none;
+	display: block;
+	
+	padding: 5px 10px 9px 5px;
+	  -webkit-filter: dropshadow(5px 7px 5px #222);
+ 	 filter: drop-shadow(5px 7px 5px #222);
+ 	 
+ 	 width:70px;
+ 	 text-align: center;
+}
+
+
+li:hover {
+    
+    background: rgb(0, 0, 0, .2);
+    border-radius: 5px;
+    font-size: 105%;
+}
+
+li a {
+    display: block;
+    width:70px;
+    
+}
+
+
+
+
+.warn  { 
+   	height: 175px; 
+   	
+   	font-family: tahoma;
+		
+}
+
+
+main  { 
+	
+    	margin:0px 0px 0px 0px;
+   	
+   	height: 1500px; 
+   	
+       }
+       
+form {
+
+	font-family: tahoma;
+}
+       
+input {
+	font-family: tahoma;
+	
+	font-size: 18px;
+	
+	height: 25px;
+	
+	width: 200px;
+	
+	border-radius: 5px;
+	
+	text-align:center;
+}
+
+#submitbutton {
+
+	font-size: 14px;
+	font-weight: bold;
+
+	height: 25px;
+	
+	width: 150px;
+	
+	border-radius: 5px;
+	
+	background-color: #66FF00;
+	
+}
+
+
+footer{
+
+	clear:both;
+
+	height: 20px;
+	
+	position: bottom;
+	
+	bottom: 0px;
+	
+	left: 0px;
+	
+	width: 100%;
+	
+	padding: 5px;
+	
+	background: black;
+	
+	text-align: center;
+	
+	box-shadow: 0px -1px 5px grey;
+	
+       }
+
+      .shadow { float: left;
+  -webkit-filter: drop-shadow(5px 7px 5px #222);
+  filter: drop-shadow(5px 7px 5px #222);
+}       
+
+.logout{
+	float:right;
+	margin: 80px 30px 0px 0px    /* top(px) right(px) bottom(px) left(px)  */
+	}
+
+a:link {color:white;text-decoration:none;}		
+a:visited {color:white;}
+a:hover {font-size:100%;color:black;text-shadow: 0px 0px 0px black;}
+a:active {color:white; text-shadow: 1px 0px 0px grey;}  
+       
+       
+	  
+	  .redtext {color:red;}
+	  .yellowtext {color:yellow;}
+	  .greentext {color:green;}

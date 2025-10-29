@@ -1,0 +1,18 @@
+body {
+	background-color: white;
+
+
+	}
+
+
+
+.wins{
+	float: left;
+	margin: 50px 25px 50px 50px; 
+}
+
+.game{
+	float: left;
+	margin: 50px 25px 100px 25px; 
+	
+}
